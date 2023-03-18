@@ -1,0 +1,38 @@
+Book management system:
+Java Desktop Application used for managing a library
+
+/// INITIAL REQUIREMENTS ///
+
+BMS - 1 1. Hibernate Config
+- dependencies setup, abstractSessionManager, SessionManager
+
+BMS - 2 2. Set up database structure (models)
+
+BMS - 3 3. Create generic repository
+
+BMS - 4 . Implement Menu
+
+
+
+One window for CRUD operations on Author (firstname, lastname):
+allows the viewing of all the authors;
+
+BMS - 5 adding a new author;
+BMS - 6 deleting an existing author
+BMS - 7 updating an existing author
+BMS - 8 selecting an author by id
+
+
+
+One window for CRUD operations on Book (title, description, author):
+
+BMS - 9 allows the viewing of all the books;
+BMS - 10 adding a new book - and assigning one of the existing authors;
+BMS - 11 deleting an existing book
+BMS - 12 updating an existing book
+
+
+One window for Reviews (book, score, comment):
+
+BMS - 13 allows the viewing of all the reviews;
+BMS - 14 adding a new review for one of the existing books
