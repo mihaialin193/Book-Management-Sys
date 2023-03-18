@@ -1,6 +1,6 @@
 package bjv.proiect.bookmanagementsys;
 
-import bjv.proiect.bookmanagementsys.util.SessionManager;
+import bjv.proiect.bookmanagementsys.utils.SessionManager;
 
 public class Main {
     public static void main(String[] args) {
