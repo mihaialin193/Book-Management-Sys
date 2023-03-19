@@ -8,7 +8,7 @@ Java Desktop Application used for managing a library
 
 - DONE- BMS - 2 2. Set up database structure (models)
 
-BMS - 3 3. Create generic repository
+- DONE- BMS - 3 3. Create generic repository
 
 BMS - 4 . Implement Menu
 
@@ -18,9 +18,13 @@ One window for CRUD operations on Author (firstname, lastname):
 allows the viewing of all the authors;
 
 BMS - 5 adding a new author;
-BMS - 6 deleting an existing author
-BMS - 7 updating an existing author
-BMS - 8 selecting an author by id
+BMS - 6 deleting an existing author by id.If there's no author found by id, return
+ an appropriate message.
+BMS - 7 updating an existing author by id. If there's no author found by id, return
+an appropriate message.
+BMS - 8 displaying an author by id. If there's no author found by id, return
+ an appropriate message.
+BMS - 8.5 - show the entire list of authors.
 
 
 
