@@ -6,7 +6,7 @@ Java Desktop Application used for managing a library
 -DONE- BMS - 1 1. Hibernate Config
  dependencies setup, abstractSessionManager, SessionManager
 
-BMS - 2 2. Set up database structure (models)
+- DONE- BMS - 2 2. Set up database structure (models)
 
 BMS - 3 3. Create generic repository
 

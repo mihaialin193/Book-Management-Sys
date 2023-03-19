@@ -1,6 +1,9 @@
 package bjv.proiect.bookmanagementsys.util;
 
 
+import bjv.proiect.bookmanagementsys.model.Author;
+import bjv.proiect.bookmanagementsys.model.Book;
+import bjv.proiect.bookmanagementsys.model.Review;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
@@ -21,6 +24,8 @@ public class SessionManager extends AbstractSessionManager {
 
     @Override
     protected void setAnnotatedClasses(Configuration configuration) {
-
+        configuration.addAnnotatedClass(Book.class);
+        configuration.addAnnotatedClass(Author.class);
+        configuration.addAnnotatedClass(Review.class);
     }
 }
